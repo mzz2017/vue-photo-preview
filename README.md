@@ -17,14 +17,14 @@
 ## 使用
 ``` bash
 # 安装
-npm install vue-photo-preview --save
+npm install vue-photo-preview-ex --save
 ```
 
 ```javascript
 
 # 引入
-import preview from 'vue-photo-preview'
-import 'vue-photo-preview/dist/skin.css'
+import preview from 'vue-photo-preview-ex'
+import 'vue-photo-preview-ex/dist/skin.css'
 Vue.use(preview)
 //或者 
 var option={....} //option配置请查看 http://photoswipe.com/documentation/options.html
@@ -36,7 +36,7 @@ Vue.use(preview, option)
 # umd
 <link rel="stylesheet" type="text/css" href="路径/dist/skin.css"/>
 
-<script src="路径/dist/vue-photo-preview.js" type="text/javascript" charset="utf-8"></script>
+<script src="路径/dist/vue-photo-preview-ex.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 	var options={
 		fullscreenEl:false //关闭全屏按钮
@@ -113,8 +113,4 @@ this.$previewRefresh()
 
 
 ## Options   
-[插件配置文档](http://photoswipe.com/documentation/options.html) 
-
-## DEMO   
-[地址](https://826327700.github.io/vue-photo-preview/demo/)  
-
+[插件配置文档](http://photoswipe.com/documentation/options.html)
