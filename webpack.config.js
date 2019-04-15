@@ -7,8 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-photo-preview.js',
-    library: 'vue-photo-preview',
+    filename: 'vue-photo-preview-ex.js',
+    library: 'vue-photo-preview-ex',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
