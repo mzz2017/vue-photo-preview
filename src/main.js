@@ -3,22 +3,23 @@ import App from './App.vue'
 
 import Preview from './lib/index'
 
-var opts={
-	mainClass : 'pswp--minimal--dark',
-	barsSize : {
-		top: 0,
-		bottom: 0
-	},
-	captionEl : false,
-	fullscreenEl : false,
-	shareEl : false,
-	bgOpacity : 0.85,
-	tapToClose : true,
-	tapToToggleControls : false,
+var opts = {
+    mainClass: 'pswp--minimal--dark',
+    barsSize: {
+        top: 0,
+        bottom: 0
+    },
+    captionEl: false,
+    fullscreenEl: false,
+    shareEl: false,
+    bgOpacity: 0.85,
+    tapToClose: true,
+    tapToToggleControls: false,
+    preload: [1, 1],
 }
-Vue.use(Preview,opts)
+Vue.use(Preview, opts)
 
 new Vue({
-  el: '#app',
-  render: h => h(App)
+    el: '#app',
+    render: h => h(App)
 })
