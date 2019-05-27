@@ -1,4 +1,4 @@
-# vue-photo-preview
+# vue-photo-preview-ex
 
 > \"基于photoswipe的vue图片预览插件\"
 
@@ -12,7 +12,7 @@
 
 4.简化了html结构
 
-5.forked from [github.com/826327700/vue-photo-preview](https://github.com/826327700/vue-photo-preview)
+5.forked from [github.com/826327700/vue-photo-preview](https://github.com/826327700/vue-photo-preview), 修复preload选项无效等问题。
 
 ## 使用
 ``` bash
